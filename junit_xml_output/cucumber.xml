@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.429834">
+    <testcase classname="Bestbuy" name="Home Page deafult login" time="16.974723">
+        <system-out><![CDATA[Given Initilize driver......................................................passed
+Given navigates to "https://www.bestbuy.com/"...............................passed
+Given Click on Login link in home page to land on Secure sign in Page.......passed
+When User Logs in with "dsk" And "asd"......................................passed
+Then dont allow in "WrongPassword"..........................................passed
+Then user can sign in with Apple............................................passed
+Then user will put Apple "User" and "Pass"..................................passed
+And quit Browser............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bestbuy" name="Home Page deafult login" time="13.455111">
+        <system-out><![CDATA[Given Initilize driver......................................................passed
+Given navigates to "https://www.bestbuy.com/"...............................passed
+Given Click on Login link in home page to land on Secure sign in Page.......passed
+When user will put Gmail "mdalminhaz12@gmail.com" and "Mdalminhaz1234"......passed
+Then allow in...............................................................passed
+And quit Browser............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
