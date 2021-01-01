@@ -103,6 +103,7 @@ public class stepDefination extends base {
 	    public void quit_browser() throws Throwable {
 		 Thread.sleep(3000);
 		 driver.close();
+		 System.out.println("Git Command so this changes");
 		 
 	 }
 
